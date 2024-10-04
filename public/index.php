@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Map CMS - Home</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <style>
     #map { height: 500px; }
   </style>
@@ -16,6 +16,6 @@
   <p>Here you can include some FAQ content...</p>
 
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <script src="../assets/js/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

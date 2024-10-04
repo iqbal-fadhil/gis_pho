@@ -16,7 +16,7 @@ var overlayMaps = {
 L.control.layers(null, overlayMaps).addTo(map);
 
 // Fetch points and add to map
-fetch('../public/get_points.php')
+fetch('get_points.php')
     .then(response => response.json())
     .then(data => {
         data.forEach(point => {
@@ -29,7 +29,7 @@ fetch('../public/get_points.php')
     .catch(err => console.log('Error fetching points:', err));
 
 // Fetch polygons and add to map
-fetch('../public/get_polygons.php')
+fetch('get_polygons.php')
     .then(response => response.json())
     .then(data => {
         data.forEach(polygon => {
